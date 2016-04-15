@@ -1,0 +1,364 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contaminación</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp03.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/conta1.jpg','imagenes/conta2.jpg','imagenes/conta3.jpg','imagenes/conta4.jpg','imagenes/afinacion.jpg','imagenes/manejar menos.jpg','imagenes/preven6.jpg','imagenes/quemar.jpg','imagenes/desechables.jpg','imagenes/reciclar.jpg','imagenes/tirar basura.jpg','imagenes/plajuicidas.gif','imagenes/consumo.jpg','imagenes/talar.jpg','imagenes/limpieza.jpg')">
+<!-- Principal -->
+
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Contaminación</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+          <div align="center">
+           <img src="imagenes/fondo.jpg" width="25%" height="35%">
+         </div>
+      
+<div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>¿Qué es la Contaminación?</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Causas de la Contaminación</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Consecuencias de la Contaminación</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Medidas Preventivas para la Contaminación</h2>
+       </a>
+     </li>
+   
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Contaminación en mi Comunidad</h2>
+       </a>
+      </li>
+    </ul>
+    </div>
+</div> <!-- content main-->
+<div data-role="footer" data-position="fixed" align="center" data-theme="a">
+   <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+     <h4>Aplicacion Tres</h4>
+     <h4>Nancy Lizbeth Reyes Jimenez</h4>
+   </div>
+</div>
+</div> 
+<!--Principal-->
+<!--Pag 1-->
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Significado de Contaminación</h1>
+    </div>
+    <div data-role="main" class="ui-content" align="center">
+     <div>
+        <h2>La Contaminación se denomina a la presencia en el ambiente de cualquier agente químico, físico o biológico nocivos para la salud o el bienestar de la población, de la vida animal o vegetal.
+
+Esta degradación del medio ambiente por un contaminante externo puede provocar daños en la vida cotidiana del ser humano y alterar las condiciones de supervivencia de la flora y la fauna.</h2>
+<img src="imagenes/img2.jpg" width="200" height="100">
+<img src="imagenes/img-2.jpg" width="200" height="100">
+        </div>
+        <div>
+        
+        <h2>Alrededor de 2 millones de personas podrían morir cada año por alguna causa atribuible a la contaminación atmosférica, asegura la Organización Mundial de la Salud. Según este estudio la mayor cantidad de muertes se producen en los países en desarrollo donde se concentran  altas densidades de partículas nocivas para la salud.
+
+La población humana crece según una progresión geométrica y la demanda de alimentos y necesidades básicas para la vida del hombre son cada vez mayores. El aumento en el consumo de diversos productos y desechos, provocados por  el ser humano, trae como consecuencia la generación de sustancias tóxicas.</h2>
+<img src="imagenes/img3.jpg" width="200" height="100">
+<br>
+<h2>Tipos de Contaminación</h2>
+   </div>
+
+  
+     <div data-role="collapsible">
+     <h2>Contaminación del Agua</h2>
+     <div align="center">
+     <p>La contaminación del agua es el grado de impurificación, que puede originar efectos adversos a la salud de un número representativo de personas durante períodos previsibles de tiempo. 
+
+Se considera que el agua está contaminada, cuando ya no puede utilizarse para el uso que se le iba a dar, en su estado natural o cuando se ven alteradas sus propiedades químicas, físicas, biológicas y/o su composición. En líneas generales, el agua está contaminada cuando pierde su potabilidad para consumo diario o para su utilización en actividades domésticas, industriales o agrícolas.</p>
+<img src="imagenes/agua.jpg"width="200" height="100">
+     <br>
+     </div>
+     </div>
+     
+     <div data-role="collapsible">
+     <h2>Contaminación del aire</h2>
+     <div align="center">
+     <p>La contaminación del aire es la que se produce como consecuencia de la emisión de sustancias tóxicas. Puede causar trastornos tales como ardor en los ojos y en la nariz, irritación y picazón de la garganta y problemas respiratorios. Bajo determinadas circunstancias, algunas substancias químicas que se hallan en el aire contaminado pueden producir cáncer, malformaciones congénitas, daños cerebrales y trastornos del sistema nervioso, así como lesiones pulmonares y de las vías respiratorias.
+        La contaminación del aire también es causante de neblina, la cual reduce la visibilidad en los parques nacionales y otros lugares y, en ocasiones, constituye un obstáculo para la aviación.</p>
+       <img src="imagenes/aire.jpg"width="200" height="100">  
+     <br>
+   </div>
+   </div>
+   
+     <div data-role="collapsible">
+     <h2>Contaminación del suelo</h2>
+     <div align="center">
+     <p>La contaminación del suelo es la introducción de sustancias extrañas a la superficie terrestre. Estos elementos perjudican de forma grave la salud de las personas, de animales y plantas. Muchas veces este tipo de contaminación entra en contacto con el agua potable de estos sitios agravando la situación.</p>
+        <img src="imagenes/suelo.jpg" width="191" height="104" alt="suelo">
+     </div>
+     </div>
+     
+      <div data-role="collapsible">
+     <h2>Contaminación sonora</h2>
+     <div align="center">
+     <p>La contaminación sonora se denomina a cualquier sonido que produzca molestaro que resulte excesivo en una determinada zona. Las personas que viven en las grandes ciudades sufren a menudo el ruido provocado por el tráfico de los coches, las bocinas de los autobuses y el paso de los trenes. Si sumamos a esto el sonido de los semáforos y el bullicio de los transeúntes se hace muy difícil, disfrutar del silencio o de sonidos agradables, llegando a sufrir patologías causadas por este malestar.</p>
+        <p>Las causas más comunes de la contaminación auditiva son:</p>
+        <ul>
+          <li>Tráfico</li>
+          <li>Aglomeración de personas</li>
+          <li>Transporte  aéreo</li>
+          <li>Obras en construcción</li>
+          <li>Sonidos estridentes que provocan los vecinos</li>
+          <li>Algunas industrias</li>
+        </ul>
+        <p><img src="imagenes/sonora.jpg" width="229" height="127" alt="sonora"></p>
+     </div>
+     </div>
+     
+     <div data-role="collapsible">
+     <h2>Contaminación lumínica</h2>
+     <div align="center">
+     <p>La contaminación lumínica es el resplandor que se produce a causa de una excesiva emisión de luz proyectada sobre gases y partículas suspendidas en el aire. Esta luz artificial y desmesurada se desvía en varias direcciones sin sentido, en diferentes intensidades, sin horarios adecuados y en rangos espectrales innecesarios.
+
+Este tipo de contaminación perjudica al bienestar y a la salud  de los habitantes de comunidades afectadas por un exceso de luz, a varias especies animales que corren el peligro de desaparecer por cambios en su hábitat.</p>
+<img src="imagenes/luminica.png"width="200" height="100">
+     <br>
+     </div>
+     </div>
+     
+     <div data-role="collapsible">
+     <h2>Contaminación térmica</h2>
+     <div align="center">
+     <p>La contaminación térmica es el deterioro de la calidad del aire o del agua a causa del incremento o descenso de la temperatura. Las causas de este tipo de contaminación están muy bien identificadas y estudiadas, pero las consecuencias a la que nos enfrentamos son difíciles de revertir sin la acción drástica de gobiernos, empresas y ciudadanos.</p>
+<img src="imagenes/termica.jpg"width="200" height="100">
+     <br>
+     </div>
+     </div>
+     </div>
+    <div data-role="footer" data-position="fixed" align="center" data-theme="a">
+   <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+     <h4>Aplicacion Tres</h4>
+     <h4>Nancy Lizbeth Reyes Jimenez</h4>
+   </div>
+</div>
+</div> 
+       
+<!--Pag 1-->
+<!-- pag 2-->
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Causas de la Contaminación</h1>
+    </div>
+    
+<div data-role="main" class="ui-content" align="center">
+     <div>
+        <h2>Las principales causas de la contaminación son:
+        <br>
+        <br>
+
+•  El tráfico rodado: los coches y camiones son los mayores contaminantes urbanos porque a diario circulan arrojando al aire gases tóxicos perjudiciales para la salud. Estos vehículos contaminan a causa de la combustión de los hidrocarburos que utilizan para moverse, y el desgaste de los frenos y  ruedas.</h2>
+        <h2> <img src="imagenes/conta2.jpg"width="200" height="100">
+  <br>
+          •   En las ciudades existe otra fuente de contaminación como son las construcciones y las demoliciones: estas actividades desprenden polvos y gases que dañan el aire de la zona en que se desarrollan,  y  a su vez contaminan el agua donde arrojan sus desechos.</h2>
+        <h2> <img src="imagenes/demola.jpg"width="200" height="100">
+          <br>
+          •   Los Combustibles fósiles: el confort  y el bienestar de los habitantes de las grandes ciudades trajo como consecuencia el aumento en el consumo de combustibles fósiles. La producción de carbón, de petróleo y de gas natural crece de la mano del ascenso de los niveles de contaminación del aire, del suelo y del agua del planeta.          </h2>
+        <h2><img src="imagenes/conta4.jpg"width="200" height="100">
+          <br>
+          •  El índice de población mundial ha crecido a distinto ritmo que la tasa de mortalidad, hecho que ha impactado sobre el medioambiente: provocando la ineficiencia en el tratamiento de las aguas residuales domésticas, el aumento del consumo irreflexivo  y la generación de toneladas de basura.</h2>
+        <h2> <img src="imagenes/conta3.jpg"width="200" height="100">
+          <br>
+          •   El progreso tecnológico beneficia a nivel económico y social,  pero la proliferación de industrias y la falta de control ambiental en sus procesos, ha perjudicado el ecosistema por la gran cantidad de residuos arrojados al aire, en ríos y mares.</h2>
+        <h2> <img src="imagenes/rios.jpg"width="200" height="100">
+          <br>
+          •   La deforestación: la tala indiscriminada en bosques y selvas impide que los árboles, encargados de purificar el aire, realicen esta tarea y que miles de animales y plantas se extingan por no tener un lugar donde vivir y crecer.  </h2>
+        <h2><img src="imagenes/defo.jpg"width="200" height="100">
+          <br>
+          •   Los pesticidas y los productos químicos utilizados en los cultivos llegan a  contaminar el suelo y el agua de la zona en que se sembró. Llegando incluso a contaminar, de forma alarmante, a muchos alimentos.</h2>
+<img src="imagenes/persticida.jpg"width="200" height="100">
+
+  </div>
+</div>
+     <div data-role="footer" data-position="fixed"align="center" data-theme="a">
+   <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+     <h4>Aplicacion Tres</h4>
+     <h4>Nancy Lizbeth Reyes Jimenez</h4>
+   </div>
+</div>
+   </div>
+</div>
+
+
+<!-- pag 2-->
+<!-- pag 3 -->
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Consecuencias de la Contaminación</h1>
+    </div>
+    <div data-role="main" class="ui-content" align="center">
+     <div>
+        <h2>La contaminación ha provocado daños en el ecosistema, en la vida del hombre, de los animales y plantas. La acción del hombre, el progreso y la intención de mejorar las condiciones de vida son las causas principales de la contaminación ambiental que está sufriendo el planeta. A su vez, los efectos de esta acción la padece el mismo hombre.
+
+Los contaminantes pueden producir efectos nocivos e irreversibles para la salud a determinados niveles de concentración. Los efectos dependen de la dosis y de la frecuencia de exposición a ese contaminante.</h2>
+<img src="imagenes/causa1.png"width="200" height="100">
+</div>
+     </div>
+   <div data-role="footer" data-position="fixed" align="center" data-theme="a">
+   <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+   <div>
+     <h4>Aplicacion Tres</h4>
+     <h4>Nancy Lizbeth Reyes Jimenez</h4>
+   </div>
+</div>
+</div>
+   </div>
+</div>
+
+
+<!-- pag 3 -->
+<!-- pag 4 -->
+
+
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Medidas Preventivas para la Contaminación</h1>
+    </div>
+    <div data-role="main" class="ui-content" align="center">
+     <div>
+        <h2>Medidas preventivas
+        <br>
+        <br>
+
++  Afina y da mantenimiento a los automóviles.</h2>
+        <h2> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/afinacion.jpg',1)"><img src="imagenes/susti.jpg" width="189" height="118" id="Image25"></a><br>
+          +  Maneja menos para reducir las emisiones contaminantes.  </h2>
+        <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/manejar menos.jpg',1)"><img src="imagenes/susti.jpg" width="193" height="128" id="Image26"></a><br>
+          +  Anda en bicicleta, camina.  </h2>
+        <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','imagenes/preven6.jpg',1)"><img src="imagenes/susti.jpg" width="189" height="113" id="Image27"></a><br>
+        +  Evita quema de basura y llantas.</h2>
+        <h2> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/quemar.jpg',1)"><img src="imagenes/susti.jpg" width="187" height="130" id="Image28"></a><br>
+          +  No compres artículos desechables y plásticos que no son biodegradables.  </h2>
+        <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/desechables.jpg',1)"><img src="imagenes/susti.jpg" width="192" height="124" id="Image29"></a><br>
+          +  Recicla la basura, reutiliza o abona todo lo que puedas.  </h2>
+        <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','imagenes/reciclar.jpg',1)"><img src="imagenes/susti.jpg" width="182" height="129" id="Image30"></a><br>
+          +  No tires basura en la calle, bosques y parques.  </h2>
+        <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/tirar basura.jpg',1)"><img src="imagenes/susti.jpg" width="191" height="122" id="Image31"></a><br>
+          +  Usa racionalmente los plaguicidas y fertilizantes en tu jardín.  </h2>
+        <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/plajuicidas.gif',1)"><img src="imagenes/susti.jpg" width="198" height="112" id="Image32"></a><br>
+          +  Evita el consumo de tabaco.  </h2>
+        <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/consumo.jpg',1)"><img src="imagenes/susti.jpg" width="181" height="125" id="Image33"></a><br>
+          +  Cuida los bosques.  </h2>
+        <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','imagenes/talar.jpg',1)"><img src="imagenes/susti.jpg" width="207" height="133" id="Image34"></a><br>
+        +  Disminuye el uso de productos de limpieza.</h2>
+        <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','imagenes/limpieza.jpg',1)"><img src="imagenes/susti.jpg" width="191" height="128" id="Image35"></a> <br>
+        </h2>
+
+     </div>
+     </div>
+ <div data-role="footer" data-position="fixed" align="center" data-theme="a">
+   <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+     <h4>Aplicacion Tres</h4>
+     <h4>Nancy Lizbeth Reyes Jimenez</h4>
+   </div>
+</div>
+</div>
+
+
+<!-- pag 4--> 
+<!-- pag 5 -->
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Contaminación en mi Comunidad</h1>
+    </div>
+    <div data-role="main" class="ui-content" align="center">
+     <div>
+        <h2>Atlixco manifiesta una contaminación  del 23 por ciento permanente, lo cual corresponde a estándares de una población de más de 300 mil habitantes, cuando la ciudad atlixquense cuenta con alrededor de 120 mil habitantes.
+
+Los principales factores que contribuyen a la alta contaminación en el centro urbano se deben a los automóviles y el transporte público en general.
+El aire contaminado contiene gases, polvos, olores y humos en grandes cantidades que dañan la salud de las personas, animales y plantas. Además, la contaminación ambiental puede deteriorar  la infraestructura urbana, incluso pueden existir componentes que al unirse con otros pueden alcanzar un mayor grado de toxicidad y generar graves problemas de salud.</h2>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:130%;height:25%;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+
+
+<p>De acuerdo a mi punto de vista me preocupa los gases automovilistas e industriales en nuestro planeta pero pincipalmente en mi comunidad. Es razonable que los seres humanos respeten el medio ambiente pero no resulta fácil para ello necesitamos apoyarnos entre vecinos ya que necesitamos pensar en nuestro futuro y el futuro de nuestros hijos.
+Tenemos un planeta al cual debemos Cuidarlo.</p>
+<img src="imagenes/ambiente.jpg"width="200" height="100">
+
+     </div>
+     </div>
+ <div data-role="footer" data-position="fixed" align="center" data-theme="a">
+   <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+     <h4>Aplicacion Tres</h4>
+     <h4>Nancy Lizbeth Reyes Jimenez</h4>
+   </div>
+</div>
+</div>
+
+
+</body>
+</html>
